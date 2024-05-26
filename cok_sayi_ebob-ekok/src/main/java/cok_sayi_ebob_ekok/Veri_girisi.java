@@ -400,7 +400,7 @@ public class Veri_girisi extends JFrame {
 
 		public void insertUpdate(DocumentEvent e) {
 				
-				if(Pattern.matches("[^1-9]+",tf1.getText())) 
+			if(!Pattern.matches("^[1-9]||([1-9][0-9]{0,})$",tf1.getText())) 
 				{
 		
 					tf1.requestFocus();
@@ -444,7 +444,7 @@ public class Veri_girisi extends JFrame {
 
 		public void removeUpdate(DocumentEvent e) {
 			
-			if(Pattern.matches("[^1-9]+",tf1.getText())) 
+			if(!Pattern.matches("^[1-9]||([1-9][0-9]{0,})$",tf1.getText())) 
 			{
 	
 				tf1.requestFocus();
@@ -485,7 +485,7 @@ public class Veri_girisi extends JFrame {
 
 		public void changedUpdate(DocumentEvent e) {
 			
-			if(Pattern.matches("[^1-9]+",tf1.getText())) 
+			if(!Pattern.matches("^[1-9]||([1-9][0-9]{0,})$",tf1.getText())) 
 			{
 	
 				tf1.requestFocus();
@@ -529,7 +529,7 @@ public class Veri_girisi extends JFrame {
 
 		public void insertUpdate(DocumentEvent e) {
 				
-			if(Pattern.matches("[^1-9]+",tf2.getText())) 
+			if(!Pattern.matches("^[1-9]||([1-9][0-9]{0,})$",tf2.getText())) 
 			{
 	
 				tf2.requestFocus();
@@ -571,7 +571,7 @@ public class Veri_girisi extends JFrame {
 
 		public void removeUpdate(DocumentEvent e) {
 			
-			if(Pattern.matches("[^1-9]+",tf2.getText())) 
+			if(!Pattern.matches("^[1-9]||([1-9][0-9]{0,})$",tf2.getText())) 
 			{
 	
 				tf2.requestFocus();
@@ -612,7 +612,7 @@ public class Veri_girisi extends JFrame {
 
 		public void changedUpdate(DocumentEvent e) {
 			
-			if(Pattern.matches("[^1-9]+",tf2.getText())) 
+			if(!Pattern.matches("^[1-9]||([1-9][0-9]{0,})$",tf2.getText())) 
 			{
 	
 				tf2.requestFocus();
@@ -655,7 +655,7 @@ public class Veri_girisi extends JFrame {
 
 		public void insertUpdate(DocumentEvent e) {
 		
-			if(Pattern.matches("[^1-9]+",tf3.getText())) 
+			if(!Pattern.matches("^[1-9]||([1-9][0-9]{0,})$",tf3.getText())) 
 			{
 	
 				tf3.requestFocus();
@@ -697,7 +697,7 @@ public class Veri_girisi extends JFrame {
 
 		public void removeUpdate(DocumentEvent e) {
 			
-			if(Pattern.matches("[^1-9]+",tf3.getText())) 
+			if(!Pattern.matches("^[1-9]||([1-9][0-9]{0,})$",tf3.getText())) 
 			{
 	
 				tf3.requestFocus();
@@ -739,7 +739,7 @@ public class Veri_girisi extends JFrame {
 
 		public void changedUpdate(DocumentEvent e) {
 			
-			if(Pattern.matches("[^1-9]+",tf3.getText())) 
+			if(!Pattern.matches("^[1-9]||([1-9][0-9]{0,})$",tf3.getText())) 
 			{
 	
 				tf3.requestFocus();
@@ -783,7 +783,7 @@ public class Veri_girisi extends JFrame {
 
 		public void insertUpdate(DocumentEvent e) {
 		
-			if(Pattern.matches("[^1-9]+",tf4.getText())) 
+			if(!Pattern.matches("^[1-9]||([1-9][0-9]{0,})$",tf4.getText())) 
 			{
 	
 				tf4.requestFocus();
@@ -825,7 +825,7 @@ public class Veri_girisi extends JFrame {
 
 		public void removeUpdate(DocumentEvent e) {
 			
-			if(Pattern.matches("[^1-9]+",tf4.getText())) 
+			if(!Pattern.matches("^[1-9]||([1-9][0-9]{0,})$",tf4.getText())) 
 			{
 	
 				tf4.requestFocus();
@@ -866,7 +866,7 @@ public class Veri_girisi extends JFrame {
 
 		public void changedUpdate(DocumentEvent e) {
 			
-			if(Pattern.matches("[^1-9]+",tf4.getText())) 
+			if(!Pattern.matches("^[1-9]||([1-9][0-9]{0,})$",tf4.getText())) 
 			{
 	
 				tf4.requestFocus();
@@ -911,7 +911,7 @@ public class Veri_girisi extends JFrame {
 
 		public void insertUpdate(DocumentEvent e) {
 			
-			if(Pattern.matches("[^1-9]+",tf5.getText())) 
+			if(!Pattern.matches("^[1-9]||([1-9][0-9]{0,})$",tf5.getText())) 
 			{
 	
 				tf5.requestFocus();
@@ -954,7 +954,7 @@ public class Veri_girisi extends JFrame {
 		public void removeUpdate(DocumentEvent e) {
 			
 			
-			if(Pattern.matches("[^1-9]+",tf5.getText())) 
+			if(!Pattern.matches("^[1-9]||([1-9][0-9]{0,})$",tf5.getText())) 
 			{
 	
 				tf5.requestFocus();
@@ -996,7 +996,7 @@ public class Veri_girisi extends JFrame {
 
 		public void changedUpdate(DocumentEvent e) {
 			
-			if(Pattern.matches("[^1-9]+",tf5.getText())) 
+			if(!Pattern.matches("^[1-9]||([1-9][0-9]{0,})$",tf5.getText())) 
 			{
 	
 				tf5.requestFocus();
